@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.7.1.js"> </script>
+        <link rel="stylesheet" href="Page d'acceuil.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" href="Design site/Logo AS.png" type="image/x-icon">
+    </head>
+    <body>
+      <header>
+        <div class="header">
+          <div class="click AS" onclick="scrollToHome(event)">
+            <img src="Design site/Logo AS.png" alt="Logo AS pour ALexis Steiger">
+          </div>
+
+          <div class="menu_top">
+            
+
+          <div class="click" onclick="scrollToHome(event)">
+            <h2 class="HOME" >HOME</h2>
+          </div>
+
+          <div class="click" onclick="scrollToAPropos(event)">
+            <h2 class="A PROPOS DE MOI">A PROPOS DE MOI</h2>
+          </div>
+
+          <div class="click" onclick="scrollToExperience(event)">
+            <h2 class="EXPERIENCES">EXPERIENCES</h2>
+          </div>
+
+          <div class="click deroulant">
+              <h2>PORTFOLIO</h2>
+              <ul class="sous">
+                  <li onclick="scrollToPortfolio1(event)"><a href="#PORTFOLIO1">Portfolio 1</a></li>
+                  <li onclick="scrollToPortfolio2(event)"><a href="#PORTFOLIO2">Portfolio 2</a></li>
+                  <li onclick="scrollToPortfolio3(event)"><a href="#PORTFOLIO3">Portfolio 3</a></li>
+              </ul> 
+          </div>
+          <div class="click" onclick="scrollToContact(event)">
+            <h2 class="CONTACT">CONTACT</h2>
+        </div>
+    </div>
+ </div>
+</header>
+      
+    <div class="un">
+        <div class="left" id="HOME">
+                <h2 id="h2">Bonjour à tous !</h2>
+                <h1 id="h1">Je suis Alexis Steiger</h1>
+                <h3 id="h3">Débutant en design graphique / developpement</h3>
+                    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Delectus ipsum totam quos provident quod quo magnam amet 
+                     perspiciatis vitae autem dolorum nulla incidunt corporis 
+                     dolor, necessitatibus praesentium quas molestiae possimus.
+                    </p>
+                    <br>
+                    <button class="back_to_apropos" onclick="scrollToAPropos(event)">
+                      <svg class="svgIcon" viewBox="0 0 384 512">
+                      <path
+                      d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 
+                      32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 
+                      32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"> 
+                      </path>
+                      </svg>
+                      </button>  
+        </div>
+        <div class="right">
+        </div>
+    </div>
+
+
+    <div class="deux"> <!--A propos--> 
+        <div class="gauche">
+            <div class="image1">
+                <img src="Image/Image portfolio.jpg" alt="Moi parce que je suis le plus beau de la terre" style="border-top-left-radius: 20px">
+            </div>
+            <div class="aside-menu"></div>
+        </div>
+        <div class="droite" id="A_PROPOS">
+            <div class="deux_un">
+                <h1 class="Titre_1 anim"><strong>A propos de moi</strong></h1>
+            </div>
+            <div class="deux_deux">
+              <div class="hp">
+                <h1 class="h1_1">Je suis Alexis Steiger, débutant en design graphique / developpement</h1>
+                <br>
+                <h1 class="comptetence">Comptétences:</h1>
+              </div>
+                <div class="tableau">
+                    <div class="stats-container">
+                        <div class="card card1" title="Cliquez 😉">
+                          <div class="front">
+                            <img src="Image/Illustrator.png" title="Cliquez 😉" alt="Illustrator" width="90px" height="90px">
+                            <p>ILLUSTRATOR</p>
+                          </div>
+                          <div class="back">
+                            <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                          </div>
+                        </div>
+                      
+                        <div class="card card2" title="Cliquez 😉">
+                          <div class="front">
+                            <img src="Image/Photoshop.png" title="Cliquez 😉" alt="Photoshop" width="90px" height="90px">
+                            <p>PHOTOSHOP</p>
+                          </div>
+                          <div class="back">
+                            <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                          </div>
+                        </div>
+                      
+                        <div class="card card3" title="Cliquez 😉">
+                          <div class="front">
+                            <img src="Image/Html logo.png" title="Cliquez 😉" alt="HTML5" width="90px" height="90px">
+                            <p>HTML</p>
+                          </div>
+                          <div class="back">
+                            <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                          </div>
+                        </div>
+                      
+                        <div class="card card4" title="Cliquez 😉">
+                          <div class="front">
+                            <img src="Image/WordPress.png" title="Cliquez 😉" alt="WordPress" width="90px" height="90px">
+                            <p>WORDPRESS</p>
+                          </div>
+                          <div class="back">
+                            <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                          </div>
+                        </div>
+                      
+                        <div class="card card5" title="Cliquez 😉">
+                          <div class="front">
+                            <img src="Image/Logo figma.png" title="Cliquez 😉" alt="FIGMA" width="90px" height="90px">
+                            <p>FIGMA</p>
+                          </div>
+                          <div class="back">
+                            <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                          </div>
+                        </div>
+                      
+                        <div class="card card6" title="Cliquez 😉">
+                          <div class="front">
+                            <img src="Image/logo indesign.png" title="Cliquez 😉" alt="INDESIGN" width="80px" height="80px">
+                            <p>INDESIGN</p>
+                          </div>
+                          <div class="back">
+                            <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+             </div>
+            </div>
+        </div>
+
+        <!-- <div class="deux"> Experience
+          <div class="gauche">
+              <div class="image">
+                  <img src="Image/Image portfolio.jpg" alt="Moi parce que je suis le plus beau de la terre" style="border-top-left-radius: 20px">
+              </div>
+            <div class="aside-menu"></div>
+          </div>
+          <div class="droite" id="EXPERIENCE">
+              <div class="deux_un">
+                <div class="deux_un">
+                <h1 class="Titre_1 anim"><strong>Expériences</strong></h1>
+            </div>
+            <div class="deux_deux">
+            </div>  
+        </div>
+       </div>
+      </div> -->
+
+<div id="blur"></div>
+<div class="deux" id="portfolio1"> <!--Portfolio 1-->
+  <!-- <div id="info_projet">
+    <a id="close_projet" onclick="closeprojet()"><img src="croix-sombre-brute.svg" width="40px" height="40px" alt="croix pour fermer"></a>
+    <div class="p-gauche">
+    <h4 class="h4_top">Projet de Refonte de l'Identité Visuelle et du Site Internet de l'Association Oratorio Magi Soutien et Entraide</h4>
+    <p id="paragraphe">
+        <br>
+
+        L'association Oratorio Magi Soutien et Entraide, basée à Nancy, accompagne les personnes en difficulté. Pour moderniser son image et améliorer son accessibilité, une refonte de son identité visuelle et de son site internet a été réalisée.
+        <br>
+         Objectifs <br>
+        - Moderniser l’identité visuelle pour refléter les valeurs de solidarité. <br>
+        - Créer une charte graphique cohérente avec un logo, une palette de couleurs et une typographie adaptées. <br>
+        - Repenser le site internet pour une navigation intuitive et un accès facilité aux informations. <br>
+        - Améliorer l’expérience utilisateur (UX/UI) et optimiser le site pour le référencement (SEO).
+        <br>
+         Réalisations <br>
+        - Conception d’un logo et d’une charte graphique moderne et harmonieuse. <br>
+        - Développement de supports de communication visuelle (flyers, affiches, bannières). <br>
+        - Refonte du site avec une interface ergonomique, responsive et optimisée. <br> 
+        - Intégration de nouvelles fonctionnalités : formulaire de contact, espace bénévoles, actualités. 
+        <br>
+         Résultats <br>
+        Cette refonte a renforcé l’image de l’association et amélioré l’expérience des visiteurs, facilitant l’accès aux services et l’engagement des bénévoles et donateurs.
+        </p>
+        <br>
+        <h4>Voici un aperçu du site que mon equipe et moi avons conçu</h4>
+        <br>
+        <a href="https://lucie-hazard.mds-nancy.yt/Oratorio2/#" class="h4_bottom" target="blank">https://lucie-hazard.mds-nancy.yt/Oratorio2/#</a>
+        <img src="Design site/Séparateur_top.png" alt="séparateur vague bleu" class="separateur2">
+        <img src="Design site/Séparateur_bottom.png" alt="séparateur vague bleu" class="separateur1">
+    </div>
+    <div class="p-droite">
+        <img src="Charte graphique Oratorio Magi Soutien et Entraide png/1-Charte Graphique Oratorio Magi soutien & entraide.png" width="500px" height="350px">
+        <img src="Charte graphique Oratorio Magi Soutien et Entraide png/2-Charte Graphique Oratorio Magi soutien & entraide.png" width="500px" height="350px">
+        <img src="Charte graphique Oratorio Magi Soutien et Entraide png/3-Charte Graphique Oratorio Magi soutien & entraide.png" width="500px" height="350px">
+        <img src="Charte graphique Oratorio Magi Soutien et Entraide png/4-Charte Graphique Oratorio Magi soutien & entraide.png" width="500px" height="350px">
+        <img src="Charte graphique Oratorio Magi Soutien et Entraide png/5-Charte Graphique Oratorio Magi soutien & entraide.png" width="500px" height="350px">
+        <img src="Charte graphique Oratorio Magi Soutien et Entraide png/6-Charte Graphique Oratorio Magi soutien & entraide.png" width="500px" height="350px">
+        <img src="Charte graphique Oratorio Magi Soutien et Entraide png/7-Charte Graphique Oratorio Magi soutien & entraide.png" width="500px" height="350px">
+        <img src="Charte graphique Oratorio Magi Soutien et Entraide png/8-Charte Graphique Oratorio Magi soutien & entraide.png" width="500px" height="350px">
+        <img src="Charte graphique Oratorio Magi Soutien et Entraide png/9-Charte Graphique Oratorio Magi soutien & entraide.png" width="500px" height="350px">
+        <img src="Charte graphique Oratorio Magi Soutien et Entraide png/10-Charte Graphique Oratorio Magi soutien & entraide.png" width="500px" height="350px">
+        <img src="Charte graphique Oratorio Magi Soutien et Entraide png/11-Charte Graphique Oratorio Magi soutien & entraide.png" width="500px" height="350px">
+        <img src="Charte graphique Oratorio Magi Soutien et Entraide png/12-Charte Graphique Oratorio Magi soutien & entraide.png" width="500px" height="350px">
+        <img src="Charte graphique Oratorio Magi Soutien et Entraide png/13-Charte Graphique Oratorio Magi soutien & entraide.png" width="500px" height="350px">
+    </div>
+  </div> -->
+    <div class="gauche">
+      <div class="image1">
+          <img src="Image/Image portfolio.jpg" alt="Moi parce que je suis le plus beau de la terre" style="border-top-left-radius: 20px">
+      </div>
+        <div class="aside-menu"></div>
+      </div>
+      <div class="droite" id="PORTFOLIO1">
+            <div class="deux_un">
+              <h1 class="Titre_1 anim"><strong>Portfolio</strong></h1>
+            </div>
+            <div class="deux_deux">   
+              <div class="div-slide">
+                
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide item_projet"><br><img class="images" src="Image-Slider/Logo Oratorio Magi.png" alt="">
+                        <div class="icons">
+                            <i class="fa-brands fa-linkedin" width="40px" height="40px"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+            <br>
+                        <div class="project-name">
+                            <span class="name">Oratorio Magi Soutien & Entraide</span>
+                            <span class="Project">Refonte du visuel et du site </span>
+                        </div>
+            
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+            
+                        <input type="submit" class="bouton-projet" value="Voir le projet" onclick="showprojet('info_projet1')">
+            
+                    </div>
+                    <div class="swiper-slide item_projet"><br><img class="images" src="Image-Slider/Indesign-Carte.png" alt="">
+                      <div class="icons">
+                          <i class="fa-brands fa-linkedin" width="40px" height="40px"></i>
+                          <i class="fa-brands fa-square-instagram"></i>
+                      </div>
+            <br>
+                      <div class="project-name">
+                          <span class="name">Font Fury</span>
+                          <span class="Project">Exercice sur InDesign</span>
+                      </div>
+            
+                      <div class="rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="far fa-star"></i>
+                      </div>
+            
+                      <input type="submit" class="bouton-projet" value="Voir le projet" onclick="showprojet('#info_projet2')">
+            </div>
+                    <div class="swiper-slide item_projet"><br><img class="images" src="Image-Slider/Logo Crookie.png" alt="">
+                      <div class="icons">
+                          <i class="fa-brands fa-linkedin" width="40px" height="40px"></i>
+                          <i class="fa-brands fa-square-instagram"></i>
+                      </div>
+            <br>
+                      <div class="project-name">
+                          <span class="name">Crookie</span>
+                          <span class="Project">Création d'une marque fictive</span>
+                      </div>
+            
+                      <div class="rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="far fa-star"></i>
+                      </div>
+            
+                      <input type="submit" class="bouton-projet" value="Voir le projet" onclick="showprojet()">
+            </div>
+                    <div class="swiper-slide item_projet"><br><img  class="images" src="Image-Slider/Mockup Panzani.png" alt="">
+                      <div class="icons">
+                          <i class="fa-brands fa-linkedin" width="40px" height="40px"></i>
+                          <i class="fa-brands fa-square-instagram"></i>
+                      </div>
+            <br>
+                      <div class="project-name">
+                          <span class="name">Mockup Panzani</span>
+                          <span class="Project">Inspiré de Kunel Gaur</span>
+                      </div>
+            
+                      <div class="rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="far fa-star"></i>
+                      </div>
+            
+                      <input type="submit" class="bouton-projet" value="Voir le projet" onclick="showprojet()">
+            </div>
+                    <div class="swiper-slide item_projet"><br><img class="images" src="Image-Slider/Affiche DBZ.png" alt="">
+                      <div class="icons">
+                          <i class="fa-brands fa-linkedin" width="40px" height="40px"></i>
+                          <i class="fa-brands fa-square-instagram"></i>
+                      </div>
+            <br>
+                      <div class="project-name">
+                          <span class="name">Affiche DBZ</span>
+                          <span class="Project">Réalisé sur Photoshop</span>
+                      </div>
+            
+                      <div class="rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="far fa-star"></i>
+                      </div>
+            
+                      <input type="submit" class="bouton-projet" value="Voir le projet" onclick="showprojet()">
+            </div>
+                    <div class="swiper-slide item_projet"><br><img class="images" src="Image-Slider/Affiche Japon.png" alt="">
+                      <div class="icons">
+                          <i class="fa-brands fa-linkedin" width="40px" height="40px"></i>
+                          <i class="fa-brands fa-square-instagram"></i>
+                      </div>
+            <br>
+                      <div class="project-name">
+                          <span class="name">Affiche Japon</span>
+                          <span class="Project">Réalisé sur Photoshop</span>
+                      </div>
+            
+                      <div class="rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="far fa-star"></i>
+                      </div>
+            
+                      <input type="submit" class="bouton-projet" value="Voir le projet" onclick="showprojet()">
+            </div>
+                    <div class="swiper-slide item_projet"><br><img class="images" src="Image-Slider/Affiche Lampadaire.png" alt="">
+                      <div class="icons">
+                          <i class="fa-brands fa-linkedin" width="40px" height="40px"></i>
+                          <i class="fa-brands fa-square-instagram"></i>
+                      </div>
+            <br>
+                      <div class="project-name">
+                          <span class="name">Affiche Lampadaire</span>
+                          <span class="Project">Réalisé sur Photoshop</span>
+                      </div>
+            
+                      <div class="rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="far fa-star"></i>
+                      </div>
+            
+                      <input type="submit" class="bouton-projet" value="Voir le projet" onclick="showprojet()">
+                    </div>
+                    <div class="swiper-slide item_projet"><br><img class="images" src="Image-Slider/Affiche Noël.png" alt="">
+                      <div class="icons">
+                          <i class="fa-brands fa-linkedin" width="40px" height="40px"></i>
+                          <i class="fa-brands fa-square-instagram"></i>
+                      </div>
+            <br>
+                      <div class="project-name">
+                          <span class="name">Affiche Noël</span>
+                          <span class="Project">Réalisé sur Photoshop</span>
+                      </div>
+            
+                      <div class="rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="far fa-star"></i>
+                      </div>
+            
+                      <input type="submit" class="bouton-projet" value="Voir le projet">
+                    </div>
+                    <div class="swiper-slide item_projet"><br><img class="images" src="Image-Slider/All Bikes Out.png" alt="">
+                      <div class="icons">
+                          <i class="fa-brands fa-linkedin" width="40px" height="40px"></i>
+                          <i class="fa-brands fa-square-instagram"></i>
+                      </div>
+            <br>
+                      <div class="project-name">
+                          <span class="name">All Bikes Out</span>
+                          <span class="Project">Refonte visuel All Bikes Out</span>
+                      </div>
+            
+                      <div class="rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="far fa-star"></i>
+                      </div>
+            
+                      <input type="submit" class="bouton-projet" value="Voir le projet">
+                    </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+              </div>
+            </div>
+      </div>
+</div>
+
+
+    <div class="deux"><!--Contact-->
+      <div class="gauche">
+          <div class="image1">
+              <img src="Image/Image portfolio.jpg" alt="Moi parce que je suis le plus beau de la terre" style="border-top-left-radius: 20px">
+          </div>
+        <div class="aside-menu"></div>
+      </div>
+      <div class="droite" id="CONTACT">
+          <div class="deux_un">
+            <div class="deux_un">
+            <h1 class="Titre_1 anim"><strong>Contact</strong></h1>
+        </div>
+        <div class="deux_deux">  
+     </div>
+    </div>
+   </div>
+   </div>  
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+<script src="Page d'accueil.js"></script>
+<script src="index.js"></script>
+</html>
