@@ -1,0 +1,196 @@
+#info_projet1{
+  display: none;
+  justify-content: end;
+  width: 1000px;
+  height: 500px;
+  background-color: rgb(254, 243, 243);
+  position: absolute;
+  top: calc(50% - 250px);
+  left: calc(50% - 500px);
+  z-index: 100;
+  color: black;
+  border-radius: 25px;
+}
+#info_projet2{
+    display: none;
+    justify-content: end;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(254, 243, 243);
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 500px);
+    z-index: 100;
+    color: black;
+    border-radius: 25px;
+  }
+  #info_projet3{
+    display: none;
+    justify-content: end;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(254, 243, 243);
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 500px);
+    z-index: 100;
+    color: black;
+    border-radius: 25px;
+  }
+  #info_projet4{
+    display: none;
+    justify-content: end;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(254, 243, 243);
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 500px);
+    z-index: 100;
+    color: black;
+    border-radius: 25px;
+  }
+  #info_projet5{
+    display: none;
+    justify-content: end;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(254, 243, 243);
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 500px);
+    z-index: 100;
+    color: black;
+    border-radius: 25px;
+  }
+  #info_projet6{
+    display: none;
+    justify-content: end;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(254, 243, 243);
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 500px);
+    z-index: 100;
+    color: black;
+    border-radius: 25px;
+  }
+  #info_projet7{
+    display: none;
+    justify-content: end;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(254, 243, 243);
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 500px);
+    z-index: 100;
+    color: black;
+    border-radius: 25px;
+  }
+  #info_projet8{
+    display: none;
+    justify-content: end;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(254, 243, 243);
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 500px);
+    z-index: 100;
+    color: black;
+    border-radius: 25px;
+  }
+  #info_projet9{
+    display: none;
+    justify-content: end;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(254, 243, 243);
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 500px);
+    z-index: 100;
+    color: black;
+    border-radius: 25px;
+  }
+
+
+  #close_projet1{
+    display: flex;
+    position: absolute;
+    margin: 15px 30px 0;
+  }
+  #close_projet2{
+    display: flex;
+    position: absolute;
+    margin: 15px 30px 0;
+    color: black;
+  }
+  #close_projet3{
+    display: flex;
+    position: absolute;
+    margin: 15px 30px 0;
+  }
+  #close_projet4{
+    display: flex;
+    position: absolute;
+    margin: 15px 30px 0;
+  }
+  #close_projet5{
+    display: flex;
+    position: absolute;
+    margin: 15px 30px 0;
+  }
+  #close_projet6{
+    display: flex;
+    position: absolute;
+    margin: 15px 30px 0;
+  }
+  #close_projet7{
+    display: flex;
+    position: absolute;
+    margin: 15px 30px 0;
+  }
+  #close_projet8{
+    display: flex;
+    position: absolute;
+    margin: 15px 30px 0;
+  }
+
+  #close_projet9{
+    display: flex;
+    position: absolute;
+    margin: 15px 30px 0;
+  }
+
+
+
+  #close_projet1:hover{
+    animation: vibration 0.8s ease-in-out infinite alternate;
+  }
+  #close_projet2:hover{
+    animation: vibration 0.8s ease-in-out infinite alternate;
+  }
+  #close_projet3:hover{
+    animation: vibration 0.8s ease-in-out infinite alternate;
+  }
+  #close_projet4:hover{
+    animation: vibration 0.8s ease-in-out infinite alternate;
+  }
+  #close_projet5:hover{
+    animation: vibration 0.8s ease-in-out infinite alternate;
+  }
+  #close_projet6:hover{
+    animation: vibration 0.8s ease-in-out infinite alternate;
+  }
+  #close_projet7:hover{
+    animation: vibration 0.8s ease-in-out infinite alternate;
+  }
+  #close_projet8:hover{
+    animation: vibration 0.8s ease-in-out infinite alternate;
+  }
+  #close_projet9:hover{
+    animation: vibration 0.8s ease-in-out infinite alternate;
+  }
