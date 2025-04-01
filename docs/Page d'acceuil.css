@@ -710,7 +710,7 @@ hr{
 }
 
 .a{
-  font-size: 24px;
+  font-size: 18px;
 }
 
 
@@ -720,6 +720,7 @@ hr{
   justify-content: center;
   align-items: center;
   color: black;
+  border-radius: 20px;
 }
 
 .div-slide {
@@ -740,6 +741,10 @@ hr{
   justify-content: center;
   align-items: center;
 }
+.swiper-wrapper{
+  border-radius: 20px;
+}
+
 .swiper-slide {
   width: 300px;
   height: auto;
@@ -750,7 +755,6 @@ hr{
   align-items: center;
   text-align: center;
 }
-
 
 .swiper .mySwiper{
   display: flex;
@@ -776,9 +780,9 @@ hr{
   background-size: 100% 100%;
   border-radius: 20px;
   flex-direction: column;
-  box-shadow: 10px 0 20px;
   width: 100%;
   height: 60%;
+  border-radius: 20px;
 
 
   /* Center slide text vertically */
