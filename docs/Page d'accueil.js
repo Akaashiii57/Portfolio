@@ -11,19 +11,6 @@ function loaderMenu() {
 
 document.addEventListener('DOMContentLoaded', loaderMenu);
 
-function loaderInfo() {
-  fetch('Info-projet.html')
-      .then(response => response.text())
-      .then(data => {
-          document.querySelectorAll('.projects').forEach(info => {
-              info.innerHTML = data;
-          });
-      })  
-      .catch(error => console.error('Erreur survenue:', error));
-}
-
-document.addEventListener('DOMContentLoaded', loaderInfo);
-
 
 
 
