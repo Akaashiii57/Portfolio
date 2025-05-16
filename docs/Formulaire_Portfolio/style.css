@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("volcan.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}
+
+form {
+    box-shadow: 10px 20px 30px black;
+    width: 400px;
+    text-align: left;
+    border: solid, 5px, white;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 25px;
+    backdrop-filter: blur(5px);
+}
+h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+label{
+    text-align: left;
+    font-size: 20px;
+}
+.lab{
+    margin-left: 35px;
+}
+.marge{
+    margin: 15px 0;
+}
+input{
+   width: 80%;
+   height: 35px;
+   border: solid, 3px, white;
+   border-radius: 25px;
+   margin-left: 35px;
+}
+
+
+#checkbox{
+    align-items: left;
+    width: 16px;
+    height: 16px;
+    margin-left: 35px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px; 
+    align-items: center;
+    font-size: 14px;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    background-color: #9c86be;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    height: auto;
+    color: white;
+    transition: all 1.3s ease ;
+}
+
+input[type="submit"]:hover{
+    margin-top: 20px;
+    border: solid 3px #9667e0;
+    background-color: #9c86be;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    height: auto;
+    color: white;
+    transform: scale(1.04 , 1.02);
+}
+
+.compte{
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+a{
+    color: white;
+}
+.marge{
+    margin-top: 20px;
+}
+
+.message-erreur {
+    background-color: #ffe0e0;
+    color: #b80000;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 15px auto;
+    width: 27.5%;
+    top: 0.5%;
+    font-weight: bold;
+    z-index: 100;
+    position: absolute;
+}

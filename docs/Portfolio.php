@@ -1,172 +1,20 @@
-<html>
-    <head>
-        <title>Portfolio</title>
-        <meta charset="utf-8">
-        <script src="https://code.jquery.com/jquery-3.7.1.js"> </script>
-        <link rel="stylesheet" href="Page d'acceuil.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-        <link rel="stylesheet" href="projects.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="icon" href="Design site/Logo AS.png" type="image/x-icon">
-    </head>
-    <body>
-      <header>
-        <div class="header">
-          <div class="click AS" onclick="scrollToHome(event)">
-            <img src="Design site/Logo AS.png" alt="Logo AS pour ALexis Steiger">
-          </div>
-
-          <div class="menu_top">
-          <div class="click" onclick="scrollToHome(event)">
-            <h2 class="HOME" >HOME</h2>
-          </div>
-
-          <div class="click" onclick="scrollToAPropos(event)">
-            <h2 class="A PROPOS DE MOI">A PROPOS DE MOI</h2>
-          </div>
-
-          <div class="click" onclick="scrollToPortfolio(event)">
-              <h2 class="PORTFOLIO">PORTFOLIO</h2>  
-          </div>
-          <div class="click" onclick="scrollToContact(event)">
-            <h2 class="CONTACT">CONTACT</h2>
-        </div>
-    </div>
- </div>
-</header>
-      <section>
-        
-      </section>
-    <div class="un">
-        <div class="left" id="HOME">
-                <h2 id="h2">Bonjour à tous !</h2>
-                <h1 id="h1">Je suis Alexis Steiger</h1>
-                <h3 id="h3">Débutant en design graphique / developpement web</h3>
-                    <p class="p1">Passionné par le digital, je me forme actuellement en design graphique et en développement web. <br> 
-                      Curieux, motivé et créatif, je suis à la recherche d’un stage du 22 Avril au 13 Juin pour mettre en pratique mes compétences et continuer à progresser.
-                      N’hésitez pas à me contacter si mon profil vous intéresse !
-                    </p>
-                    <br>
-                    <button class="back_to_apropos" onclick="scrollToAPropos(event)">
-                      <svg class="svgIcon" viewBox="0 0 384 512">
-                      <path
-                      d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 
-                      32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 
-                      32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"> 
-                      </path>
-                      </svg>
-                      </button>  
-        </div>
-        <div class="right">
-        </div>
-    </div>
-
-
-    <div class="deux"> <!--A propos--> 
-        <div class="gauche">
-            <div class="image1">
-                <img src="Image/Photo cv.png" alt="Moi parce que je suis le plus beau de la terre" style="border-top-left-radius: 20px">
-            </div>
-            <div class="aside-menu"></div>
-        </div>
-        <div class="droite" id="A_PROPOS">
-            <div class="deux_un">
-                <h1 class="Titre_1 anim"><strong>A propos de moi</strong></h1>
-            </div>
-            <div class="deux_deux">
-              <div class="hp">
-                <h1 class="h1_1">Je suis Alexis Steiger, débutant en design graphique / developpement</h1>
-                <br>
-                <h1 class="comptetence">Comptétences:</h1>
-              </div>
-                <div class="tableau">
-                    <div class="stats-container">
-                        <div class="card card1" title="Cliquez 😉">
-                          <div class="front">
-                            <img src="Image/Illustrator.png" title="Cliquez 😉" alt="Illustrator" width="90px" height="90px">
-                            <p>ILLUSTRATOR</p>
-                          </div>
-                          <div class="back">
-                            <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                          </div>
-                        </div>
-                      
-                        <div class="card card2" title="Cliquez 😉">
-                          <div class="front">
-                            <img src="Image/Photoshop.png" title="Cliquez 😉" alt="Photoshop" width="90px" height="90px">
-                            <p>PHOTOSHOP</p>
-                          </div>
-                          <div class="back">
-                            <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                          </div>
-                        </div>
-                      
-                        <div class="card card3" title="Cliquez 😉">
-                          <div class="front">
-                            <img src="Image/Html logo.png" title="Cliquez 😉" alt="HTML5" width="90px" height="90px">
-                            <p>HTML</p>
-                          </div>
-                          <div class="back">
-                            <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                          </div>
-                        </div>
-                      
-                        <div class="card card4" title="Cliquez 😉">
-                          <div class="front">
-                            <img src="Image/WordPress.png" title="Cliquez 😉" alt="WordPress" width="90px" height="90px">
-                            <p>WORDPRESS</p>
-                          </div>
-                          <div class="back">
-                            <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                          </div>
-                        </div>
-                      
-                        <div class="card card5" title="Cliquez 😉">
-                          <div class="front">
-                            <img src="Image/Logo figma.png" title="Cliquez 😉" alt="FIGMA" width="90px" height="90px">
-                            <p>FIGMA</p>
-                          </div>
-                          <div class="back">
-                            <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                          </div>
-                        </div>
-                      
-                        <div class="card card6" title="Cliquez 😉">
-                          <div class="front">
-                            <img src="Image/logo indesign.png" title="Cliquez 😉" alt="INDESIGN" width="80px" height="80px">
-                            <p>INDESIGN</p>
-                          </div>
-                          <div class="back">
-                            <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div>
-             </div>
-            </div>
-        </div>
-
-        <!-- <div class="deux"> Experience
-          <div class="gauche">
-              <div class="image">
-                  <img src="Image/Image portfolio.jpg" alt="Moi parce que je suis le plus beau de la terre" style="border-top-left-radius: 20px">
-              </div>
-            <div class="aside-menu"></div>
-          </div>
-          <div class="droite" id="EXPERIENCE">
-              <div class="deux_un">
-                <div class="deux_un">
-                <h1 class="Titre_1 anim"><strong>Expériences</strong></h1>
-            </div>
-            <div class="deux_deux">
-            </div>  
-        </div>
-       </div>
-      </div> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"> </script>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+<section>
 <div id="blur"></div> 
-<div class="deux"> <!--Portfolio 1-->         
+<div class="deux"> <!--Portfolio-->         
 <div id="info_projet1">
     <a id="close_projet" onclick="closeprojet1('info_projet1')"><img src="Design site/croix-sombre-brute.svg" width="40px" height="40px" alt="croix pour fermer"></a>
     <div class="p-gauche">
@@ -538,7 +386,7 @@ Ce travail graphique s’inscrit dans une démarche d’entraînement autant qu�
       <div class="image1">
           <img src="Image/Photo cv.png" alt="Moi parce que je suis le plus beau de la terre" style="border-top-left-radius: 20px">
       </div>
-        <div class="aside-menu"></div>
+        <?php include 'Aside-menu.php'; ?>
       </div>
       <div class="droite" id="PORTFOLIO1">
             <div class="deux_un">
@@ -551,8 +399,12 @@ Ce travail graphique s’inscrit dans une démarche d’entraînement autant qu�
                   <div class="swiper-wrapper">
                     <div class="swiper-slide item_projet"><br><img class="images" src="Image-Slider/Logo Oratorio Magi.png" alt="">
                         <div class="icons">
-                            <i class="fa-brands fa-linkedin" width="40px" height="40px"></i>
-                            <i class="fa-brands fa-square-instagram"></i>
+                        <a href="https://www.linkedin.com/in/alexis-steiger-a65308346/" target="_blank">
+                            <img src="Design site/Linkedin.png" width="40px" height="40px" alt="logo linkedin">
+                        </a>
+                        <a href="https://www.instagram.com/alexis_graphisme/" target="_blank">
+                            <img src="Design site/Instagram.png" width="40px" height="40px" alt="logo instagram">
+                        </a>
                         </div>
             <br>
                         <div class="project-name">
@@ -807,62 +659,11 @@ Ce travail graphique s’inscrit dans une démarche d’entraînement autant qu�
             </div>
       </div>
 </div>
-
-
-   <section>
-    <div class="deux"><!--Contact-->
-      <div class="gauche">
-          <div class="image1">
-              <img src="Image/Photo cv.png" alt="Moi parce que je suis le plus beau de la terre" style="border-top-left-radius: 20px">
-          </div>
-      </div>
-      <div class="droite" id="CONTACT">
-            <div class="deux_un">
-            <h1 class="Titre_1 anim"><strong>Contact</strong></h1>
-        </div>
-        <div class="formulaire deux_deux">  
-        <div class="contact">
-          <span><h1>Des idées ? Des questions ?</h1></span>
-            <span><h2>Contatez Moi</h2></span>
-            <form method="post" action="">
-              <div class="names">
-                <input type="text" name="nom" id="nom" placeholder="Votre Nom" required>
-                <input type="text" name="prenom" id="prenom" placeholder="Votre Prénom" required>
-              </div>
-              <div class="coord">
-                <input type="email" name="email" id="email" placeholder="Votre Email" required>
-                <input type="number" name="telephone" id="phone" placeholder="Votre Numero de téléphone" required> 
-              </div>
-              <div class="message">
-                <textarea name="message" id="message" cols="51" rows="5" placeholder="Ecrivez votre message, demande, requête" required></textarea>
-              </div>
-              <input type="submit" name="envoyer" id="send" value="Envoyer">
-            </form>
-            </div>
-            <div class="Informations">
-              <h2>Informations</h2>
-              <span><img src="Design site/icone_mail.png" alt="Icone mail" width="40px" height="40px"> <p class="p-info"> alexis.steiger@my-digital-school.org</p></span>
-              <span><img src="Design site/icone_telephone.png" alt="Icone téléphone" width="40px" height="40px"> <p class="p-info"> 06 19 23 92 68</p></span>
-              <span><img src="Design site/Icone_localisation.png" alt="Icone localisation" width="40px" height="40px"> <p class="p-info"> 45 Rue de Château Salins, 54000 Nancy <br>
-                                                                                                                           20 allée Erckmann Chatrian, 57600 Oeting </p> </span>
-              <span><img src="Design site/icone_horloge.png" alt="Icone horloge" width="40px" height="40px"> <p class="p-info"> 9h - 17h</p ></span>
-              
-              <div class="lien-contact">
-              <a href="Image/Alexis_Steiger_CV_Alternance.pdf" id="CV" target="_blank">Télécharger mon CV</a>
-              <div class="contact-icons">
-              <a href="https://www.instagram.com/alexis_graphisme/" target="_blank"><img src="Design site/Icone-insta.png" alt="Instagram" ></a>
-              <a href="https://www.linkedin.com/in/alexis-steiger-a65308346/" target="_blank"><img src="Design site/Icone-linkedin.png" alt="Linkedin"></a>
-              </div>
-              </div>
-            </div>
-      </div>
-   </div>
-   </div> 
-</section> 
-   
-   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</section>
 </body>
-
-<script src="Page d'accueil.js"></script>
-<script src="index.js"></script>
 </html>
+
+
+
+<?php
+?>

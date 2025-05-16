@@ -152,6 +152,9 @@ a{
     border: solid 1px white;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .left{
@@ -188,10 +191,13 @@ a{
     font-size: 22px;
     margin-top: 20px;
     color: white;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 800;
 }
 .p1{
     font-size: 18px;
     margin-top: 20px;
+    font-family: "Exo 2", sans-serif;
     color: white;
 }
 .p2{
@@ -242,7 +248,7 @@ hr{
   .back_to_apropos:hover {
     width: 140px;
     border-radius: 50px;
-    transition-duration: 0.3s;
+    transition-duration: 0,3s;
     background-color: rgb(181, 160, 255);
     align-items: center;
   }
@@ -267,7 +273,7 @@ hr{
     opacity: 1;
     bottom: unset;
     /* transform: translateY(-30px); */
-    transition-duration: 0.3s;
+    transition-duration: 0s;
     transform: rotate(180deg);
 }
 
@@ -275,6 +281,8 @@ hr{
 .deux{
     display: flex;
     position: relative;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     background-size: 100%;
     scroll-snap-align: inherit;
@@ -316,7 +324,10 @@ hr{
 }
 
 .droite{
-    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 50px 50px 50px 0px;
@@ -342,13 +353,26 @@ hr{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 55px;
+  font-size: 45px;
   color: white;
   background-color: #5e548e;
   background-size: auto;
   border-radius: 20px;
   padding: 15px 55px;
   margin: 15px 0;
+}
+
+.Titre_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: white;
+    background-color: #5e548e;
+    background-size: auto;
+    border-radius: 20px;
+    padding: 15px 55px;
+    margin: 35px 0;
 }
 
 .h1_1{
@@ -386,12 +410,19 @@ hr{
 
 .deux_deux{
     padding: 5px 10% 0px;
-    width: 976;
-    height: 500;
+    width: 60vw;
+    height: 80vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     color: white;
+    margin-bottom: 20px;
     position: relative;
+}
+.deux_deux p{
+    font-size: 12px;
+    font-family: "Exo 2", sans-serif;
 }
 .ph{
     display: flex;
@@ -550,6 +581,8 @@ hr{
 }
 .p3{
     padding-left: 10px;
+    font-family: "Exo 2", sans-serif;
+    font-size: 12px;
 }
 
 .back_to_top {
@@ -668,6 +701,7 @@ hr{
 }
 #paragraphe{
   font-size: 16px;
+  font-family: "Exo 2", sans-serif;
 }
 .h4_top{
   padding-top: 75px;
@@ -738,7 +772,7 @@ hr{
 .mySwiper {
   width: 90%;
   max-width: 1200px;
-  height: 100%;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -809,8 +843,9 @@ hr{
   width: 180px;
   height: 180px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 100%;
 }
+
 .swiper-slide .icons{
   display: flex;
   flex-direction: column;
@@ -830,7 +865,6 @@ hr{
 .swiper-slide .icons i:hover{
   opacity: 1;
 }
-
 .swiper-slide .project-name{
   display: flex;
   flex-direction: column;
@@ -839,15 +873,17 @@ hr{
 }
 
 .project-name .name{
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 800;
 }
 .project-name .Project{
   font-size: 15px;
-  font-weight: 400;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
 }
 .rating{
-  margin-top: 15px;
+  margin: 15px 0 23px 0;
   color: #9d58f2;
 }
 .bouton-projet {
@@ -886,39 +922,180 @@ hr{
 }
 .formulaire{
   display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: left;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 70vw;
+  height: 100vh;
+  position: relative;
+  gap: 40px;
+}
+.contact{
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  width: 75vw;
-  height: 90vh;
-  position: inherit;
 }
 form{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
-  box-shadow: 10px 20px 30px black;
-  width: 400px;
   text-align: left;
-  border: solid, 5px, white;
-  padding: 25px;
   border-radius: 10px;
   font-size: 25px;
   gap: 5px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.name{
+  gap: 10px;
+}
+
+input[type="text"], [type="email"], [type="number"] {
+  width: 200px;
+  height: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid white 2px;
+  border-radius: 20px;
+  color: black;
+  font-family: "Exo 2", sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+padding: 10px 20px;
+width: 450px;
+font-size: 20px;
+background: #9d58f2;
+color: white;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+input[type="submit"]:hover {
+  background: #003566;
+  color: white;
+}
+input::placeholder{
+  font-size: 14px;
+  padding: 5px 0 0 5px;
 }
 .names{
   display: flex;
   flex-direction: row;
-  width: 100%;
-  height: 35px;
   gap: 5px;
 }
 .coord{
   display: flex;
   flex-direction: row;
-  width: 100%;
-  height: 35px;
   gap: 5px;
-} 
+}
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: solid white 2px;
+  border-radius: 20px;
+  color: black;
+  font-family: "Exo 2", sans-serif;
+  font-size: 14px;
+}
+.Informations{
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  gap: 25px;
+  background-color: #B6A0FF;
+  padding-left: 50px;
+  padding-right: 40px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 0px 4px rgba(180, 160, 255, 0.253);
+}
+span{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+
+}
+
+span p{
+  font-family: "Exo 2", sans-serif;
+
+}
+
+.contact h2{
+  margin-bottom: 75px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.p-info{
+  font-size: 16px !important;
+}
+
+.message-erreur {
+  background-color: #ffe0e0;
+  color: #b80000;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 15px auto;
+  width: 27.5%;
+  top: 0.5%;
+  font-weight: bold;
+  z-index: 100;
+  position: absolute;
+}
+
+.lien-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.lien-contact #CV{
+  padding: 15px 20px;
+  background-color: #7272AE;
+  border-radius: 15px;
+  transition: all 0.6s ease;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px 0px #5E548E;
+}
+.lien-contact #CV:hover{
+  transform: translatey(4px) translateX(4px);
+  box-shadow: 0px 0px 0px 0px #5E548E;
+}
+.contact-icons{
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: right;
+}
+.lien-contact img{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  padding: 15px;
+  background-color: #7272AE;
+  border-radius: 15px;
+  transition: all 0.6s ease;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px 0px #5E548E;
+
+}
+
+.lien-contact img:hover{
+  transform: translatey(4px) translateX(4px);
+  box-shadow: 0px 0px 0px 0px #5E548E;
+}
+
